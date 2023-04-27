@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Login Guest Channel Suite" verbose="1">
+    <parameter name="project" value="SDK"></parameter>
+    <parameter name="cycle" value="SDK-CY-13"></parameter>
+    <test name="Login Guest">
+        <classes>
+            <class name="test_case.feature.android.login.login_channel.LoginGuest" />
+        </classes>
+    </test>
+</suite>

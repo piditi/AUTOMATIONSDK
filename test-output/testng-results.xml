@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T09:07:14 ICT" name="Login Guest Channel Suite" finished-at="2023-04-27T09:08:07 ICT" duration-ms="53342">
+    <groups>
+      <group name="SDK-TC-246">
+        <method signature="LoginGuest.SDK246_verifyLoginGuestChannel()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" name="SDK246_verifyLoginGuestChannel" class="test_case.feature.android.login.login_channel.LoginGuest"/>
+      </group> <!-- SDK-TC-246 -->
+      <group name="SDK-TC-249">
+        <method signature="LoginGuest.SDK249_verifyExitHomeWhileLogin()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" name="SDK249_verifyExitHomeWhileLogin" class="test_case.feature.android.login.login_channel.LoginGuest"/>
+      </group> <!-- SDK-TC-249 -->
+      <group name="SDK">
+        <method signature="LoginGuest.SDK246_verifyLoginGuestChannel()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" name="SDK246_verifyLoginGuestChannel" class="test_case.feature.android.login.login_channel.LoginGuest"/>
+        <method signature="LoginGuest.SDK249_verifyExitHomeWhileLogin()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" name="SDK249_verifyExitHomeWhileLogin" class="test_case.feature.android.login.login_channel.LoginGuest"/>
+      </group> <!-- SDK -->
+    </groups>
+    <test started-at="2023-04-27T09:07:14 ICT" name="Login Guest" finished-at="2023-04-27T09:08:07 ICT" duration-ms="53342">
+      <class name="test_case.feature.android.login.login_channel.LoginGuest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:07:14 ICT" name="configureAppium" finished-at="2023-04-27T09:07:30 ICT" duration-ms="15559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:07:30 ICT" name="preCondition" finished-at="2023-04-27T09:07:30 ICT" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="SDK246_verifyLoginGuestChannel()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:07:30 ICT" name="SDK246_verifyLoginGuestChannel" description="Nhấn Guest login trong điều kiện mạng ổn định" finished-at="2023-04-27T09:07:43 ICT" duration-ms="13353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SDK246_verifyLoginGuestChannel -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:07:43 ICT" name="cleanUp" finished-at="2023-04-27T09:07:43 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:07:43 ICT" name="preCondition" finished-at="2023-04-27T09:07:43 ICT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="SDK249_verifyExitHomeWhileLogin()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:07:43 ICT" name="SDK249_verifyExitHomeWhileLogin" description="Kiểm tra kết quả trả về khi đang trong quá trình đăng nhập nhấn nút Home vật lý và resume lại khi dưới 1 phút" finished-at="2023-04-27T09:08:07 ICT" duration-ms="23852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SDK249_verifyExitHomeWhileLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:08:07 ICT" name="cleanUp" finished-at="2023-04-27T09:08:07 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_case.feature.android.login.login_channel.LoginGuest@1ab06251]" started-at="2023-04-27T09:08:07 ICT" name="teardown" finished-at="2023-04-27T09:08:08 ICT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test_case.feature.android.login.login_channel.LoginGuest -->
+    </test> <!-- Login Guest -->
+  </suite> <!-- Login Guest Channel Suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Guest Channel Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="project" value="SDK"/>
+  <parameter name="cycle" value="SDK-CY-13"/>
+  <test thread-count="5" name="Login Guest(failed)">
+    <classes>
+      <class name="test_case.feature.android.login.login_channel.LoginGuest">
+        <methods>
+          <include name="SDK249_verifyExitHomeWhileLogin"/>
+          <include name="teardown"/>
+          <include name="preCondition"/>
+          <include name="configureAppium"/>
+          <include name="SDK246_verifyLoginGuestChannel"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- test_case.feature.android.login.login_channel.LoginGuest -->
+    </classes>
+  </test> <!-- Login Guest(failed) -->
+</suite> <!-- Failed suite [Login Guest Channel Suite] -->
